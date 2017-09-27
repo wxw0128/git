@@ -1,0 +1,84 @@
+body, html, .box {
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  font-size: .32rem; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  flex-shrink: 0;
+  width: 100%;
+  height: .97rem;
+  background: #393a3f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff; }
+  header p {
+    margin-left: .2rem; }
+    header p b {
+      margin-right: .3rem; }
+  header ul {
+    margin-right: .2rem; }
+    header ul li {
+      list-style: none;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #fff;
+      margin-top: 2px; }
+
+section {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  flex-shrink: 1;
+  background: #818d9b;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  section .main {
+    width: 92%;
+    height: 80%;
+    margin-top: .10%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    section .main .img {
+      width: 50%;
+      margin-top: 30px; }
+    section .main p {
+      margin-top: 20px; }
+    section .main form {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 40px;
+      border-bottom: 1px solid #393a3f;
+      display: flex; }
+      section .main form img {
+        width: 5%;
+        height: 25px;
+        margin-left: 15px; }
+      section .main form input {
+        margin-left: 15px;
+        border: none;
+        background: none;
+        outline: none; }
+    section .main button {
+      width: 80%;
+      height: 35px;
+      background: #2fba77;
+      color: #fff;
+      outline: none;
+      border: none;
+      margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */

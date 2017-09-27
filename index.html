@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class='box'>
+        <header>
+           
+            <p> <b>&times</b>设备测试预约系统</p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </header>
+        <section>
+            <div class='main'>
+                <img src="img/logo_01.png" alt="" class='img'>
+                <p>设备测试预约系统</p>
+                <form class='modle'>
+                    <img src="img/icon_01.png" alt="">
+                    <input type="text" placeholder="请输入手机号">
+                </form>
+                <form class='password'>
+                    <img src="img/icon_03.png" alt="">
+                    <input type="text" placeholder="请输入密码">
+                </form>
+                <button>登陆账号开始预约</button>
+            </div>
+        </section>
+    </div>
+    <script>
+        init();
+        window.onresize = function(){
+            init();
+        }
+        function init(){
+            var html = document.documentElement;
+            html.style.fontSize = html.clientWidth/375*50+"px";
+        }
+    </script>
+</body>
+</html>
